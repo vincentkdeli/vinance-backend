@@ -10,5 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>vinance-backend-web</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-web-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-command</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

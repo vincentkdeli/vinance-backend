@@ -11,4 +11,15 @@
 
     <artifactId>vinance-backend-command</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-command-model</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-web-model</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
