@@ -10,7 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class VinanceBackendApplication {
+
   public static void main(String[] args) {
     SpringApplication.run(VinanceBackendApplication.class, args);
   }
+
 }
