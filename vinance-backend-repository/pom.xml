@@ -9,16 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>vinance-backend-command-impl</artifactId>
+    <artifactId>vinance-backend-repository</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.vincentkdeli</groupId>
-            <artifactId>vinance-backend-command</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.vincentkdeli</groupId>
-            <artifactId>vinance-backend-repository</artifactId>
+            <artifactId>vinance-backend-entity</artifactId>
         </dependency>
     </dependencies>
 

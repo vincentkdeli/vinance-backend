@@ -14,11 +14,13 @@
         <module>vinance-backend-command-model</module>
         <module>vinance-backend-configuration</module>
         <module>vinance-backend-constant</module>
+        <module>vinance-backend-entity</module>
         <module>vinance-backend-enum</module>
         <module>vinance-backend-exception</module>
         <module>vinance-backend-helper</module>
         <module>vinance-backend-helper-impl</module>
         <module>vinance-backend-properties</module>
+        <module>vinance-backend-repository</module>
         <module>vinance-backend-validation</module>
         <module>vinance-backend-web</module>
         <module>vinance-backend-web-model</module>
@@ -125,6 +127,11 @@
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
+                <artifactId>vinance-backend-entity</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.vincentkdeli</groupId>
                 <artifactId>vinance-backend-enum</artifactId>
                 <version>${project.version}</version>
             </dependency>
@@ -146,6 +153,11 @@
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
                 <artifactId>vinance-backend-properties</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.vincentkdeli</groupId>
+                <artifactId>vinance-backend-repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
