@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  vinance-mongo:
+    container_name: vinance-mongo
+    image: mongo:4.1
+    ports:
+      - 6000:27017
+    environment:
+      - MONGO_USERNAME=vinance
+      - MONGO_PASSWORD=secretvinance
+    networks:
+      - vinance_network
+
+networks:
+  vinance_network:
+    name: vinance_network
