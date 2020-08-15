@@ -11,4 +11,11 @@
 
     <artifactId>vinance-backend-helper-impl</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-helper</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

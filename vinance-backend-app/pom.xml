@@ -22,6 +22,10 @@
         </dependency>
         <dependency>
             <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-helper-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
             <artifactId>vinance-backend-web</artifactId>
         </dependency>
     </dependencies>

@@ -18,6 +18,10 @@
         </dependency>
         <dependency>
             <groupId>com.vincentkdeli</groupId>
+            <artifactId>vinance-backend-helper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.vincentkdeli</groupId>
             <artifactId>vinance-backend-repository</artifactId>
         </dependency>
     </dependencies>

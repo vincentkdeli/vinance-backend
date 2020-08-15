@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotBlank;
+
 /**
  * @author - Vincent K. Deli
  * @created - 15/08/20
@@ -15,10 +17,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest implements CommandRequest {
+public class RegisterMemberRequest implements CommandRequest {
 
+  @NotBlank
   private String email;
 
+  @NotBlank
   private String password;
 
 }
