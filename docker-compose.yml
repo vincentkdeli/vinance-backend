@@ -5,7 +5,7 @@ services:
     container_name: vinance-mongo
     image: mongo:4.1
     ports:
-      - 6000:27017
+      - 27017:27017
     environment:
       - MONGO_USERNAME=vinance
       - MONGO_PASSWORD=secretvinance
