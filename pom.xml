@@ -5,31 +5,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vincentkdeli</groupId>
-    <artifactId>vinance-backend</artifactId>
+    <artifactId>vinance</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>vinance-backend-app</module>
-        <module>vinance-backend-command</module>
-        <module>vinance-backend-command-impl</module>
-        <module>vinance-backend-command-model</module>
-        <module>vinance-backend-configuration</module>
-        <module>vinance-backend-constant</module>
-        <module>vinance-backend-entity</module>
-        <module>vinance-backend-enum</module>
-        <module>vinance-backend-exception</module>
-        <module>vinance-backend-helper</module>
-        <module>vinance-backend-helper-impl</module>
-        <module>vinance-backend-properties</module>
-        <module>vinance-backend-repository</module>
-        <module>vinance-backend-validation</module>
-        <module>vinance-backend-web</module>
-        <module>vinance-backend-web-model</module>
+        <module>vinance-app</module>
+        <module>vinance-command</module>
+        <module>vinance-command-impl</module>
+        <module>vinance-command-model</module>
+        <module>vinance-configuration</module>
+        <module>vinance-constant</module>
+        <module>vinance-entity</module>
+        <module>vinance-enum</module>
+        <module>vinance-exception</module>
+        <module>vinance-helper</module>
+        <module>vinance-helper-impl</module>
+        <module>vinance-properties</module>
+        <module>vinance-repository</module>
+        <module>vinance-validation</module>
+        <module>vinance-web</module>
+        <module>vinance-web-model</module>
     </modules>
 
     <packaging>pom</packaging>
 
-    <name>vinance-backend</name>
-    <description>Java backend application for Vinance</description>
+    <name>vinance</name>
+    <description>Spring boot application for Vinance</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -97,82 +97,82 @@
         <dependencies>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-app</artifactId>
+                <artifactId>vinance-app</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-command</artifactId>
+                <artifactId>vinance-command</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-command-impl</artifactId>
+                <artifactId>vinance-command-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-command-model</artifactId>
+                <artifactId>vinance-command-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-configuration</artifactId>
+                <artifactId>vinance-configuration</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-constant</artifactId>
+                <artifactId>vinance-constant</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-entity</artifactId>
+                <artifactId>vinance-entity</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-enum</artifactId>
+                <artifactId>vinance-enum</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-exception</artifactId>
+                <artifactId>vinance-exception</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-helper</artifactId>
+                <artifactId>vinance-helper</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-helper-impl</artifactId>
+                <artifactId>vinance-helper-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-properties</artifactId>
+                <artifactId>vinance-properties</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-repository</artifactId>
+                <artifactId>vinance-repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-validation</artifactId>
+                <artifactId>vinance-validation</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-web</artifactId>
+                <artifactId>vinance-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.vincentkdeli</groupId>
-                <artifactId>vinance-backend-web-model</artifactId>
+                <artifactId>vinance-web-model</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
